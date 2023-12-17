@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+header h1 {
+    font-family: 'Libre Baskerville', cursive;
+    font-size: 50px;
+}
+
+#contact .container {
+    font-family: 'Libre Baskerville', cursive;
+}
+
+
 header {
     padding: 16px 0;
     background-color: #722424;
@@ -18,12 +28,12 @@ header nav li {
 
 
 header nav li a {
-    color: #fff;
+    color:#000000;
     text-decoration: none;
 }
 
 .container {
-    max-width: 1366px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -33,17 +43,119 @@ header .container {
     justify-content: space-between;
 }
 
-section div p {
+section div img p {
     display: inline-flex;
+    margin: 80px; 
 }
 
 .image {
     display: flex;
+    margin: 10px auto;
 }
 
 .image2 {
     display: flex;
+    margin: 10px auto;
+}
+
+body {
+    background-color: #e97171;
+}
+
+.container {
+    display: inline-flex;
+    color: #000000;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+section img {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none; 
     
 }
 
+section h2 {
+    margin-bottom: 16px;
+}
 
+form button {
+    background-color: #722424;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #804848;
+}
+
+section div button {
+    background-color: #722424;
+    color: #fff;
+    cursor: pointer;
+}
+
+section div button:hover {
+    background-color: #804848;
+}
+
+input:focus textarea:focus {
+    outline-color: #722424;
+}
+
+footer {
+    background-color: #722424;
+    color: #000000;
+    padding: 16px 0;
+}
+
+footer p {
+margin-left: 10px;
+}
+
+#contact .container {
+    margin-bottom: 10px;
+}
+
+#about .container {
+    margin-bottom: 16px;
+    display: block;
+    margin-left: 100px;
+    align-items: center;
+}
